@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "c3d987cf-2246-4931-899d-de7d6b108cf1",
+		"name": "Proveeedores_ejercicio",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "35099604"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/proveedores/guardar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":1,\r\n\"persona_juridica\":\"1234\",\r\n\"nit_o_rut\":\"1234\",\r\n\"razon_social\":\"1234\",\r\n\"nombre_del_represetnte_legal\":\"1234\",\r\n\"telefono\":\"1234\",\r\n\"correo\":\"1234\",\r\n\"ciudad\":\"1234\",\r\n\"pais\":\"1234\",\r\n\"departamento\":\"1234\",\r\n\"direccion\":\"1234\",\r\n\"ubicacion_rut\":\"1234\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/proveedores/guardar",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"proveedores",
+						"guardar"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
